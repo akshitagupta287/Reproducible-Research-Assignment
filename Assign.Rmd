@@ -38,7 +38,7 @@ options(scipen=999)
 Avg=mean(Q1$Steps)
 Med=median(Q1$Steps)
 ```
-Mean number of steps per day is `r Avg`  
+<br/>Mean number of steps per day is `r Avg`  
 Median number of steps per day is `r Med`  
 Time series plot of the average number of steps taken
 ```{r, cache=TRUE}
